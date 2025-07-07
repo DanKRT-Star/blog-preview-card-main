@@ -27,10 +27,11 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
+- psuedo Hover
 
 ### What I learned
 
-While working on this project, I practiced using local fonts with @font-face, used Flexbox for layout alignment, and applied hover states for interactive elements. I also learned how to use CSS variables to manage colors and style guides more efficiently.
+While working on this project, I practiced using local fonts with @font-face, used Flexbox for layout alignment, and applied hover states for interactive elements. I also learned how to use CSS variables to manage colors and style guides more efficiently. 
 
 Example of using @font-face:
 
