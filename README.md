@@ -18,7 +18,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/DanKRT-Star/blog-preview-card-main
-- Live Site URL: <!-- Add live site URL here -->
+- Live Site URL: [Blog preview card main](https://blog-preview-card-main-taupe-eta.vercel.app/)
 
 ## My process
 
