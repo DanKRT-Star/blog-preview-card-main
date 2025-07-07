@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <style>
+    @font-face {
+      font-family: 'Figtree';
+      src: url('./assets/fonts/Figtree-VariableFont_wght.ttf') format('truetype');
+      font-weight: 100 950;
+      font-style: normal;
+    }
+    @font-face {
+      font-family: 'Figtree';
+      src: url('./assets/fonts/Figtree-Italic-VariableFont_wght.ttf') format('truetype');
+      font-weight: 100 950;
+      font-style: italic;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --Yellow: hsl(47, 88%, 63%);
+      --White: hsl(0, 0%, 100%);
+      --Gray-500: hsl(0, 0%, 42%);
+      --Gray-950: hsl(0, 0%, 7%);
+    }
+
+    body {
+      font-size: 16px;
+      height: 100vh;
+      font-family: 'Figtree', sans-serif;
+    }
+
+    main {
+      
+      background-color: var(--Yellow);
+      width: 100%;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .blog-card {
+      background-color: white;
+      padding: 15px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      width: 300px;
+      border-radius: 10px;
+      border-top: 2px solid var(--Gray-950);
+      border-left: 2px solid var(--Gray-950);
+      border-right: 5px solid var(--Gray-950);
+      border-bottom: 5px solid var(--Gray-950);
+      margin-bottom: 10px;
+    }
+
+    .blog-card > * {
+      margin-bottom: 15px;
+    }
+
+    .blog-card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .blog-card .learning {
+      background-color: var(--Yellow);
+      padding: 5px 7px;
+      font-weight: 950;
+      border-radius: 3px;
+    }
+
+    .blog-card h1 {
+      font-weight: 900;
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    .blog-card h1:hover {
+      color: var(--Yellow);
+    }
+
+    .blog-card p:last-of-type {
+      color: var(--Gray-500);
+    }
+
+    .blog-card .user {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+    }
+
+    .blog-card .user img {
+      object-fit: cover;
+      width: 32px;
+      margin-right: 10px;
+    }
+
+    .blog-card .user span {
+      font-weight: bold;
+    }
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <main>
+    <div class="blog-card">
+      <img src="./assets/images/illustration-article.svg" alt="illustration article image"/>
+      <p class="learning">Learning</p>
+      <p>Published 21 Dec 2023</p>
+      <h1>HTML & CSS foundations</h1>
+      <p>These languages are the backbone of every website, defining structure, content, and presentation.</p>
+      <div class="user"><img src="./assets/images/image-avatar.webp" alt="Greeg Hooper avatar image"/><span>Greeg Hooper</span></div>
+    </div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Lê Mạnh Đan</a>.
+    </div>
+  </main>
+</body>
+</html>
